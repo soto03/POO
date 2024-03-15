@@ -37,6 +37,6 @@ function suma() {return 5 + 5
 };
 
 console.log("Variables:\nEntero " + numero + "\nDecimal "+ numeroDecimal + "\nTexto " + texto + "\nBoolean " + registroDeCompra + "\nDias " + Semana +
-"\nObjeto " + cosa + "\nVariable indefinidas " + indefinida + "\nnull" + nulo + "\nresultado funcion " + suma());
+"\nObjeto " + JSON.stringify(cosa)+ "\nVariable indefinidas " + indefinida + "\nnull" + nulo + "\nresultado funcion " + suma());
 
 console.log( suma ());
