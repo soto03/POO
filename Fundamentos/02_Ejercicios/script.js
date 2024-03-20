@@ -51,5 +51,5 @@ function suma_indices(){
     let primerValor = valor[0];
     suma = ultimoValor + penultimoValor + primerValor;
 
-    alert 
+    alert("el resultado de la suma de indices es $" + suma);
 }
