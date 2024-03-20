@@ -23,6 +23,13 @@ function asignaValores(){
 // Suma 'a' y 'b', resta 'b' de 'a', multiplica 'a' por 'b', y divide 'a' entre 'b'.
 // Muestra los resultados en un mensaje.
 function realizarOperaciones(){
+let num1 = 54
+let num2 = 67
+let num3 = 39
+let suma = num1 + num2 + num3;
+let resta = num2 - num3;
+let multiplicacion = num1 * num3;
+let divide = num3 / 120;
 
 }
 
@@ -33,7 +40,16 @@ function realizarOperaciones(){
 // Instrucciones: Completa la función para construir un mensaje utilizando las variables 'nombre' y 'apellido'.
 // Luego, muestra la longitud del mensaje y el primer carácter en el mensaje.
 function manipulaciónCadenas(){
-
+let direccion
 }
 // Tu código aquí
 
+function suma_indices(){
+    let valor = [1,2,3,4,5,6,7];
+    let ultimoValor = valor[valor.length - 1];
+    let penultimoValor = valor[valor.length - 3];
+    let primerValor = valor[0];
+    suma = ultimoValor + penultimoValor + primerValor;
+
+    alert 
+}
