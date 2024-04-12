@@ -1,9 +1,10 @@
 function Verpromedio(){
     let suma = 0;
 
-    for(let i = 0; i < 5; i++){
-        let nota = parseFloat(prompt("Ingrese sus Notas: " + (i + 1) + ":"));
-        let promedio = suma / 5;
+    for (let i = 1; i <= 5; i++) {
+        suma += parseFloat(prompt("Ingrese la calificación " + i + ":"));
+        promedio = suma / 5;
     }
-    document.getElementById("lista").innerHTML = promedio<
+    document.getElementById("lista").innerHTML = promedio
 }
+
