@@ -1,10 +1,16 @@
 function suma(){
-    let contador = 1
+    let contador = 0
+    let suma = 0
     let array = []
-
-    while(contador <= 10){
-    array.push(contador)
-    contador += 1
+    let sumaStr = ""
+    
+    while(contador < 10){
+        suma += contador
+        sumaStr += contador + "+"
+        array.push(suma)
+        contador++
     }
-    document.getElementById(`lista`).innerHTML = `<h2>Suma del 1 al 10: <br>${array}</h2>`
+    suma += contador
+    sumaStr += contador + " = " + suma
+    document.getElementById(`lista`).innerHTML = `<h2>Suma del 1 al 10: <br>${sumaStr}</h2>`
 }
