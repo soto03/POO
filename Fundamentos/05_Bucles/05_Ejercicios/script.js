@@ -7,5 +7,5 @@ function NnumerosPares(){
         array.push(i)
         count++;
     }
-    document.getElementById(`lista`).innerHTML = `<h2>Estos son la cantidad de numeros pares encontrados: ${array}</h2>)`
+    document.getElementById(`lista`).innerHTML = `<h2>Estos son la cantidad de numeros pares encontrados: ${array}</h2>`
 }

@@ -7,4 +7,3 @@ function Verpromedio(){
     }
     document.getElementById("lista").innerHTML = promedio
 }
-
