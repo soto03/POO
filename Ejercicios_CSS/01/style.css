@@ -1,0 +1,14 @@
+.gris{
+    margin: auto;
+    padding-top: 49%;
+    background-color: gray;
+}
+
+.container{
+    background-color: green;
+    margin-top: -47%;
+    margin-left: 10%;
+    padding: 25%;
+    height: 35%;
+    width: 35%;
+}
