@@ -1,7 +1,8 @@
 .container{
     margin: 0px auto;
-    padding: 0px auto;
-    }
+    padding: 10px;
+    background-color: grey;
+}
 
 .top-nav {
     
@@ -9,25 +10,26 @@
 }
 
 .side-nav {
-    
+    height: 300px;
+    width: 150px;
+    background-color: blue;
     display: inline-block;
     
-
 }
+
 .main {
-    width: ;
-    height: 1100px;
-    margin: 50px;
-    background-color: gray;
+    background-color: red;
+    width: 700px;
+    height: 400px;
+    display: inline-block;
 }
 
 .sub-content {
     
     display: inline-block;
-    background-color: aqua;
+    
 }
 
 #advertisement {
     
 }
-  
