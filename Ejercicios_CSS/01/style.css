@@ -1,14 +1,15 @@
-.gris{
-    margin: auto;
-    padding-top: 49%;
-    background-color: gray;
+.container{
+    background-color: orangered;
+    width: 10000px;
+    height: 990px;
+    display: inline-block;
 }
 
-.container{
-    background-color: green;
-    margin-top: -47%;
-    margin-left: 10%;
-    padding: 25%;
-    height: 35%;
-    width: 35%;
+.container2{
+    background-color: orange;
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+    padding: 60px;
+    display: inline-block;
 }

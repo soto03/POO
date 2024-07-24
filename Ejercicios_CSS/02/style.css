@@ -1,11 +1,12 @@
 .container{
-    margin: 0px auto;
+    margin: 10px auto;
+    height: 1000px;
     padding: 10px;
     background-color: grey;
 }
 
 .top-nav {
-    
+    background-color: green;
     
 }
 
@@ -22,6 +23,23 @@
     width: 700px;
     height: 400px;
     display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 10px;
+}
+
+.purple{
+    width:  660px;
+    height: 120px;
+    margin: 10px;
+    background-color: purple;
 }
 
 .sub-content {
