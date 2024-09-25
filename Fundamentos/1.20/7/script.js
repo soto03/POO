@@ -1,8 +1,8 @@
 
-function NumPares() {
+function NumImpares() {
     for (let i = 0; i < 100; i++) {
       console.log(i * 2);
     }
 }
 
-NumPares()
+NumImpares()
