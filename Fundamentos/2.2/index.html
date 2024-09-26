@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,75 +9,67 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <!-- top navigation -->
-    <div class="top">
-        <div class="nav-container">
+    <header class="top">
+        <nav class="nav-container">
             <h1>VideoLab</h1>
-            <input type="text" placeholder="Search" name="query" class="search">
-            <button class="btn">Login</button>
-        </div>
-    </div>
+            <input type="text" placeholder="Search" name="query" class="search" aria-label="Search videos">
+            <button class="btn" aria-label="Login">Login</button>
+        </nav>
+    </header>
 
-    <!-- main content -->
-    <div class="flex-container">
-
-        <!-- left column -->
-        <div class="col-l">
-
-            <!-- Reemplazamos el placeholder con un video real -->
-            <video id="myVideo" width="720" height="400" muted>
-                <source src="https://www.pexels.com/video/skyline-r33-drift-28260510/" type="video/mp4">
-                Your browser does not support the video tag.
+    <main class="flex-container">
+        <section class="col-l">
+            <video id="mainVideo" width="720" height="400" controls aria-label="Main video player">
+                <source src="/fundamentos/assets/drift2.mp4" type="video/mp4">
+                Tu navegador no soporta el video
             </video>
-
-            <!-- video info -->
             <div class="row">
                 <div class="start">
-                    <h1>Example Video Title</h1>
-                    <h3>1.3K Views | June, 18, 2021</h3>
+                    <h2 id="videoTitle">"Titulo de video"</h2>
+                    <p id="videoInfo">1.3mil Vistas | 18 de agosto, 2021</p>
                     <div class="user">
-                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
-                        <span class="user-name">Example User Name</span>
+                        <img src="assets/user.png" alt="User avatar" class="avatar-s">
+                        <span class="user-name">Ejemplo de nombre de usuario</span>
                     </div>
                 </div>
-                <button class="btn">Subscribe</button>
+                <button class="btn" aria-label="Subscribe to channel">Suscribirse</button>
             </div>
+        </section>
 
-        </div>
-
-        <!-- right column -->
-        <div class="col-r">
-
-            <h3 class="sub-header">Up Next</h3>
-
-            <div class="video-small">
-                <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s">
-                <span class="video-title">Not a Rick Roll</span>
+        <aside class="col-r">
+            <h3 class="sub-header">Siguiente Video</h3>
+            <div class="video-small" data-src="/fundamentos/assets/drift.mp4" data-title="Not a Rick Roll" data-info="10M Views | April 1, 2023">
+                <img src="/fundamentos/assets/drift.png" alt="Thumbnail for Not a Rick Roll" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">Car drifting</span>
+                    <span class="video-views">10M Vistas | 1 de abril, 2022</span>
+                </div>
             </div>
-
-            <div class="video-small">
-                <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s">
-                <span class="video-title">10 Facts About ET's Cat!</span>
+            <div class="video-small" data-src="/fundamentos/assets/mclaren.mp4" data-title="10 Facts About ET's Cat!" data-info="5M Views | May 15, 2023">
+                <img src="/fundamentos/assets/mclaren.png" alt="Thumbnail for 10 Facts About ET's Cat!" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">Club Mclaren</span>
+                    <span class="video-views">5M Vistas | 15 de mayo, 2023</span>
+                </div>
             </div>
-
-            <div class="video-small">
-                <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s">
-                <span class="video-title">5 Cosplay Tips</span>
+            <div class="video-small" data-src="/fundamentos/assets/camera.mp4" data-title="5 Cosplay Tips" data-info="2M Views | June 1, 2023">
+                <img src="/fundamentos/assets/camera.png" alt="Thumbnail for 5 Cosplay Tips" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">Camara de seguridad de estacionamiento</span>
+                    <span class="video-views">2M Vistas | 1 de junio, 2024</span>
+                </div>
             </div>
-
-            <div class="video-small">
-                <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s">
-                <span class="video-title">Boy Battles Dinobot in Thunderdome</span>
+            <div class="video-small" data-src="/fundamentos/assets/rain.mp4" data-title="Boy Battles Dinobot in Thunderdome" data-info="8M Views | June 10, 2023">
+                <img src="/fundamentos/assets/rain.png" alt="Thumbnail for Boy Battles Dinobot in Thunderdome" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">Lluvia 4k</span>
+                    <span class="video-views">8M Vistas | 10 de junio, 2024</span>
+                </div>
             </div>
-
-        </div>
-
-    </div>
+        </aside>
+    </main>
 
     <script src="script.js"></script>
 </body>
-
 </html>
