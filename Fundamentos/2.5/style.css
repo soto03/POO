@@ -1,0 +1,70 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile-card {
+    background-color: #fff;
+    box-shadow: 0 16px 16px rgba(0,0,0,0.1);
+    width: 650px;
+    overflow: hidden;
+}
+.profile-header {
+    background-color: #20a8b2;
+    height: 80px;
+}
+.profile-content {
+    padding: 20px;
+    text-align: left;
+}
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+.profile-location {
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.profile-location img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+.profile-description {
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.profile-edit {
+    color: #0b51b9;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.profile-edit img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
