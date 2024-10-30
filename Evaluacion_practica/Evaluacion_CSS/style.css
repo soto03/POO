@@ -1,0 +1,267 @@
+.inicio{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    height: 80px;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+.profile{
+    font-size: x-large;
+}
+
+.sign{
+    background-color: rgb(0, 225, 255);
+    border: 30px;
+    color: white;
+    border-radius: 1px;
+    font-size: large;
+}
+
+.perfil{
+    display: flex;
+    color: white;
+    display: block;
+    justify-content: center;
+
+}
+
+body{
+    justify-content: center;
+    font-family: cursive;
+}
+
+.profile-card {
+    background-color: #fff;
+    box-shadow: 0 16px 16px rgba(0,0,0,0.1);
+    width: 610px;
+    height: 450px;
+    overflow: hidden;
+    margin-left: 25%;
+    border-radius: 3px;
+}
+.profile-header {
+    background-color: #20a8b2;
+    height: 120px;
+}
+.profile-content {
+    padding: 20px;
+    text-align: left;
+}
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.profile-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+.profile-location {
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.profile-location img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+.profile-description {
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-size: 24px;
+}
+.profile-edit {
+    color: #0b51b9;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile-edit img {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+.connections-request{
+    display: flex;
+    width: 300px;
+    height: 240px;
+    display: block;
+    box-shadow: 24px 24px 24px rgba(0,0,0,0.1);
+    margin-left: 61%;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: -450px;
+}
+
+.conn-header{
+    background-color:  #302f2f;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 3px;
+}
+
+.number{
+    border-block: 10px;
+    border: grey;
+    border-radius: 20px;
+}
+
+.conn-avatar1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+}
+
+.conn-name1{
+    margin-left: 70px;
+    margin-top: -60px;
+}
+
+.accept-button1{
+    display: flex;
+    width: 40px;
+    margin-left: 190px;
+    margin-top: -50px
+
+}
+.close-button1{
+    display: flex;
+    width: 40px;
+    margin-left: 240px;
+    margin-top: -40px
+}
+
+
+
+.conn-avatar2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+}
+
+.conn-name2{
+    margin-left: 70px;
+    margin-top: -60px;
+}
+
+.accept-button2{
+    display: flex;
+    width: 40px;
+    margin-left: 190px;
+    margin-top: -50px
+
+}
+.close-button2{
+    display: flex;
+    width: 40px;
+    margin-left: 240px;
+    margin-top: -40px
+}
+
+
+
+.connections{
+    display: flex;
+    width: 300px;
+    height: 410px;
+    display: block;
+    box-shadow: 24px 24px 24px rgba(0,0,0,0.1);
+    margin-left: 61%;
+    margin-top: 3%;
+    border-radius: 3px;
+}
+
+.your-connections{
+    margin-top: 20px;
+}
+
+.yconn-name{
+    display: flex;
+    margin-left: 70px;
+    margin-top: -90px;
+    margin-bottom: 30px;
+}
+
+.link{
+    margin-top: 40px;
+    color: #0b51b9;
+}
+
+.avatar{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-bottom: 43px;
+    background-color: #f0f0f0;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+}
+
+.education-box{
+    background-color: #fff;
+    box-shadow: 0 16px 16px rgba(0,0,0,0.1);
+    width: 610px;
+    height: 270px;
+    overflow: hidden;
+    margin-left: 25%;
+    border-radius: 3px;
+    margin-top: -200px;
+}
+
+.Header-name{
+    margin-left: 20px;
+}
+
+.education-content{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.education-header {
+    display: flex;
+    background-color: #302f2f;
+    color: white;
+    height: 55px;
+    align-items: center;
+}
+
+.education-date{
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.education-description{
+    font-size: x-large;
+}
+
