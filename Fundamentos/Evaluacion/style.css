@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+    background-color: rgb(189, 189, 189);
+    background-image: url("https://www.clarin.com/2021/11/13/pkyhiLRFr_720x0__1.jpg") ;
+}
+
+#calculator{
+    background-color: pink;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    margin:auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.NavBar{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 220px;
+}
+
+button{
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0; 
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
+
+#display{
+    background-color: aliceblue;
+    border-radius: 15px;
+}
